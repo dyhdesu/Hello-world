@@ -1,2 +1,2 @@
 # Hello-world
-just another repository
+It is used to learn Python3!
