@@ -1,3 +1,3 @@
-print("Hello,world!")
-print("Hello!")
-print("ok")
+total = ['item_one', 'item_two', 'item_three',
+        'item_four', 'item_five']
+print(total)
