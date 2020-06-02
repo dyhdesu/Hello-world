@@ -1,7 +1,16 @@
-# 打开一个文件
-f = open("foo.txt", "w")
+# 用户输入一个数字
+num = int(input("请输入一个数字："))
 
-f.write( "Python 是一个非常好的语言。\n是的，的确非常好!!\n" )
+# 判断是否有因子
+if num > 1:
 
-# 关闭打开的文件
-f.close()
+    for i in range(2,num):
+        if (num % i) == 0:
+            print("{0}".format(num),"不是质数")
+            print("{0} 乘 {1} 等于 {2}".format(i,num//i,num))
+            break
+    else:
+        print("{0}".format(num),"是质数")
+
+else:
+    print("{0}".format(num),"不是质数")
