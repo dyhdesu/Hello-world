@@ -1,6 +1,6 @@
 # 写文件
 with open("test.txt", "wt") as out_file:
-    out_file.write("该文本会写入到文件中\n看到我了吧！")
+    out_file.write("该文本会写入到文件中\n看到我了吧！\n哈哈哈")
 
 # Read a file
 with open("test.txt", "rt") as in_file:
